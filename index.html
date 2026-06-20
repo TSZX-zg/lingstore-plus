@@ -111,6 +111,9 @@
         .submit-btn { width: 100%; padding: 14px; background: #4fc3f7; border: none; border-radius: 10px; color: #1a1a2e; font-size: 16px; font-weight: 500; cursor: pointer; transition: all 0.3s; }
         .submit-btn:hover { background: #29b6f6; }
         .submit-btn:disabled { background: #666; cursor: not-allowed; }
+        .download-hint { font-size: 12px; color: #888; margin-top: 10px; text-align: center; line-height: 1.5; }
+        .download-hint a { color: #4fc3f7; text-decoration: none; }
+        .download-hint a:hover { text-decoration: underline; }
         .form-tip { font-size: 12px; color: #888; margin-top: 10px; text-align: center; }
         .form-error { color: #ff6b6b; font-size: 13px; margin-top: 10px; text-align: center; }
         .form-success { color: #81c784; font-size: 13px; margin-top: 10px; text-align: center; }
@@ -1117,6 +1120,9 @@
                         <button class="submit-btn" onclick="handleDownload('${app._id}')">
                             📥 下载应用
                         </button>
+                        <p class="download-hint">
+                            💡 如无法下载，请先在 <a href="https://open.ziling.xin/login.html" target="_blank" style="color: var(--accent-color);">灵应用开放平台</a> 登录
+                        </p>
                         ` : `
                         <button class="download-btn" onclick="openLoginModal()">
                             🔒 登录后下载
@@ -1519,49 +1525,16 @@
         }
 
         // 处理下载
-        async function handleDownload(appId) {
+        function handleDownload(appId) {
             if (!isLoggedIn()) {
                 openLoginModal();
                 return;
             }
             
             const downloadUrl = `https://market.ziling.xin/download/${appId}`;
-            const token = getToken();
             
-            try {
-                // 不跟随重定向，手动获取临时下载链接（重定向到IP地址，不需要Token）
-                const res = await fetch(downloadUrl, {
-                    headers: {
-                        'Authorization': `Bearer ${token}`
-                    },
-                    redirect: 'manual'
-                });
-                
-                // 获取重定向地址（临时下载链接，不需要Token）
-                const redirectUrl = res.headers.get('location') || res.headers.get('Location');
-                
-                if (redirectUrl) {
-                    // 直接打开临时下载链接
-                    window.open(redirectUrl, '_blank');
-                    return;
-                }
-                
-                // 如果没有重定向，尝试直接下载
-                if (res.ok) {
-                    const blob = await res.blob();
-                    const url = window.URL.createObjectURL(blob);
-                    const a = document.createElement('a');
-                    a.href = url;
-                    a.download = `app_${appId}.apk`;
-                    a.click();
-                    window.URL.revokeObjectURL(url);
-                    return;
-                }
-            } catch (e) {
-                // fetch失败，继续尝试其他方式
-            }
-            
-            // 兜底：在新窗口打开原始下载链接
+            // 直接在新窗口打开下载链接
+            // 如果用户在灵应用开放平台登录过（有Cookie），就能直接下载
             window.open(downloadUrl, '_blank');
         }
 
