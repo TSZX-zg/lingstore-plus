@@ -1526,16 +1526,26 @@
             }
             
             try {
-                const res = await apiFetch(`/download/${appId}`);
+                // 下载API不在 /api/v1/ 下面，直接构造完整URL
+                const downloadUrl = `https://market.ziling.xin/download/${appId}`;
+                const token = getToken();
+                
+                const res = await fetch(downloadUrl, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    },
+                    redirect: 'follow'
+                });
+                
                 const contentType = res.headers.get('content-type') || '';
                 
                 if (res.ok) {
                     // 如果返回的是JSON，可能包含下载链接
                     if (contentType.includes('application/json')) {
                         const data = await res.json();
-                        const downloadUrl = data.downloadUrl || data.url || data.data?.downloadUrl;
-                        if (downloadUrl) {
-                            window.open(downloadUrl, '_blank');
+                        const url = data.downloadUrl || data.url || data.data?.downloadUrl;
+                        if (url) {
+                            window.open(url, '_blank');
                             return;
                         }
                     }
@@ -1549,14 +1559,13 @@
                     a.click();
                     window.URL.revokeObjectURL(url);
                 } else {
-                    // 失败时直接在新窗口打开下载链接
-                    const directUrl = `${API_BASE}/download/${appId}`;
-                    window.open(directUrl, '_blank');
+                    // 失败时直接在新窗口打开
+                    window.open(downloadUrl, '_blank');
                 }
             } catch (err) {
                 // 最后兜底：直接在新窗口打开
-                const directUrl = `${API_BASE}/download/${appId}`;
-                window.open(directUrl, '_blank');
+                const downloadUrl = `https://market.ziling.xin/download/${appId}`;
+                window.open(downloadUrl, '_blank');
             }
         }
 
