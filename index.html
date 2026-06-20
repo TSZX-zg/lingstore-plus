@@ -84,6 +84,70 @@
         .cache-badge { font-size: 11px; background: #4fc3f7; color: #1a1a2e; padding: 2px 8px; border-radius: 10px; margin-left: 10px; }
         .cache-badge.api { background: #ff6b6b; color: #fff; }
         
+        /* 用户信息 */
+        .user-section { display: flex; align-items: center; gap: 10px; }
+        .login-btn { background: #4fc3f7; border: none; padding: 8px 20px; border-radius: 20px; color: #1a1a2e; cursor: pointer; font-weight: 500; transition: all 0.3s; }
+        .login-btn:hover { background: #29b6f6; }
+        .user-info { display: flex; align-items: center; gap: 10px; cursor: pointer; padding: 5px 10px; border-radius: 20px; transition: background 0.3s; }
+        .user-info:hover { background: rgba(255,255,255,0.1); }
+        .user-avatar { width: 32px; height: 32px; border-radius: 50%; background: #4fc3f7; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #1a1a2e; font-size: 14px; }
+        .user-name { font-size: 14px; }
+        .user-dropdown { position: absolute; top: 100%; right: 0; background: #1a1a2e; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; min-width: 150px; display: none; z-index: 100; }
+        .user-dropdown.active { display: block; }
+        .user-dropdown-item { padding: 10px 15px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: background 0.3s; }
+        .user-dropdown-item:hover { background: rgba(255,255,255,0.1); }
+        .user-dropdown-item.danger { color: #ff6b6b; }
+        
+        /* 登录弹窗 */
+        .login-modal { max-width: 400px; }
+        .login-tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+        .login-tab { flex: 1; padding: 12px; background: rgba(255,255,255,0.05); border: none; border-radius: 10px; color: #fff; cursor: pointer; font-size: 14px; transition: all 0.3s; }
+        .login-tab.active { background: #4fc3f7; color: #1a1a2e; }
+        .form-group { margin-bottom: 15px; }
+        .form-label { font-size: 13px; color: #888; margin-bottom: 8px; display: block; }
+        .form-input { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 12px 15px; border-radius: 10px; color: #fff; font-size: 14px; box-sizing: border-box; }
+        .form-input:focus { outline: none; border-color: #4fc3f7; }
+        .form-input::placeholder { color: #666; }
+        .submit-btn { width: 100%; padding: 14px; background: #4fc3f7; border: none; border-radius: 10px; color: #1a1a2e; font-size: 16px; font-weight: 500; cursor: pointer; transition: all 0.3s; }
+        .submit-btn:hover { background: #29b6f6; }
+        .submit-btn:disabled { background: #666; cursor: not-allowed; }
+        .form-tip { font-size: 12px; color: #888; margin-top: 10px; text-align: center; }
+        .form-error { color: #ff6b6b; font-size: 13px; margin-top: 10px; text-align: center; }
+        .form-success { color: #81c784; font-size: 13px; margin-top: 10px; text-align: center; }
+        
+        .login-warning { background: rgba(255, 107, 107, 0.1); border: 1px solid rgba(255, 107, 107, 0.3); padding: 12px 15px; border-radius: 10px; color: #ff6b6b; font-size: 12px; margin-bottom: 20px; line-height: 1.5; }
+        
+        /* 评分 */
+        .rating-section { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
+        .rating-stars { display: flex; gap: 5px; }
+        .rating-star { font-size: 24px; cursor: pointer; color: #666; transition: color 0.2s; }
+        .rating-star.active, .rating-star:hover { color: #ffd700; }
+        .rating-info { font-size: 14px; color: #888; }
+        
+        /* 版本列表 */
+        .version-list { display: flex; flex-direction: column; gap: 10px; }
+        .version-item { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); }
+        .version-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .version-name { font-weight: 500; font-size: 15px; }
+        .version-size { color: #888; font-size: 13px; }
+        .version-changelog { color: #ccc; font-size: 13px; line-height: 1.5; white-space: pre-wrap; }
+        .version-download { margin-top: 10px; }
+        .version-download-btn { display: inline-block; padding: 8px 16px; background: #4fc3f7; color: #1a1a2e; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 500; }
+        .version-download-btn:hover { background: #29b6f6; }
+        
+        .login-required { background: rgba(255, 107, 107, 0.1); border: 1px solid rgba(255, 107, 107, 0.3); padding: 20px; border-radius: 10px; text-align: center; color: #ff6b6b; }
+        .login-required-btn { margin-top: 10px; padding: 8px 20px; background: #ff6b6b; color: #fff; border: none; border-radius: 20px; cursor: pointer; font-size: 14px; }
+        .login-required-btn:hover { background: #ff5252; }
+        
+        /* 评论输入 */
+        .comment-input-section { margin-bottom: 20px; }
+        .comment-textarea { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 12px 15px; border-radius: 10px; color: #fff; font-size: 14px; box-sizing: border-box; resize: vertical; min-height: 80px; font-family: inherit; }
+        .comment-textarea:focus { outline: none; border-color: #4fc3f7; }
+        .comment-submit { margin-top: 10px; text-align: right; }
+        .comment-submit-btn { padding: 8px 20px; background: #4fc3f7; color: #1a1a2e; border: none; border-radius: 20px; cursor: pointer; font-size: 14px; }
+        .comment-submit-btn:hover { background: #29b6f6; }
+        .comment-submit-btn:disabled { background: #666; cursor: not-allowed; }
+        
         /* 弹窗 */
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 2000; display: none; align-items: center; justify-content: center; padding: 20px; }
         .modal-overlay.active { display: flex; }
@@ -205,6 +269,21 @@
             <button class="nav-link" onclick="switchPage('donation')">捐赠榜</button>
             <button class="nav-link" onclick="switchPage('api')">API演示</button>
             <button class="nav-link" onclick="switchPage('legal')">法律声明</button>
+        </div>
+        <div class="user-section" style="position:relative;">
+            <div id="loginSection">
+                <button class="login-btn" onclick="openLoginModal()">登录 / 注册</button>
+            </div>
+            <div id="userSection" style="display:none;">
+                <div class="user-info" onclick="toggleUserDropdown()">
+                    <div class="user-avatar" id="userAvatar">U</div>
+                    <span class="user-name" id="userName">用户</span>
+                </div>
+                <div class="user-dropdown" id="userDropdown">
+                    <div class="user-dropdown-item" onclick="switchPage('api')">API演示</div>
+                    <div class="user-dropdown-item danger" onclick="logout()">退出登录</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -346,33 +425,53 @@
             </div>
 
             <div class="api-category">
-                <h3>🔒 需要登录的接口（演示）</h3>
+                <h3>🔒 需要登录的接口</h3>
+                <div id="loginApiStatus">
+                    ${isLoggedIn() ? `
+                    <div class="form-success" style="margin-bottom:20px;">✅ 已登录，可以调用以下接口</div>
+                    ` : `
+                    <div class="login-required" style="margin-bottom:20px;">
+                        <p>🔒 登录后可真实调用以下接口</p>
+                        <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+                    </div>
+                    `}
+                </div>
                 <div class="api-list">
                     <div class="api-item">
                         <span class="api-method post">POST</span>
                         <span class="api-path">/apps/{id}/comments</span>
-                        <span class="api-desc">发表评论（需登录）</span>
+                        <span class="api-desc">发表评论</span>
                     </div>
                     <div class="api-item">
                         <span class="api-method get">GET</span>
                         <span class="api-path">/apps/{id}/versions</span>
-                        <span class="api-desc">版本历史（需登录）</span>
+                        <span class="api-desc">版本历史</span>
+                    </div>
+                    <div class="api-item">
+                        <span class="api-method post">POST</span>
+                        <span class="api-path">/apps/{id}/rate</span>
+                        <span class="api-desc">提交评分</span>
                     </div>
                     <div class="api-item">
                         <span class="api-method get">GET</span>
                         <span class="api-path">/download/{id}</span>
-                        <span class="api-desc">APK下载（需登录）</span>
+                        <span class="api-desc">APK下载</span>
+                    </div>
+                    <div class="api-item">
+                        <span class="api-method get">GET</span>
+                        <span class="api-path">/users/profile</span>
+                        <span class="api-desc">用户资料</span>
                     </div>
                     <div class="api-item">
                         <span class="api-method get">GET</span>
                         <span class="api-path">/feedback</span>
-                        <span class="api-desc">意见反馈（需登录）</span>
+                        <span class="api-desc">意见反馈</span>
                     </div>
                 </div>
             </div>
 
             <div class="api-warning">
-                ⚠️ 以上接口需要登录Token才能调用，此处仅作演示
+                ⚠️ 本站为第三方技术演示网站，所有接口请求直接发送至灵应用商店官方API
             </div>
 
             <div class="tech-stack">
@@ -439,13 +538,19 @@
             <div class="detail-section">
                 <h3>第四条 隐私政策与数据保护</h3>
                 <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
-                    1. <strong>前端隐私承诺</strong>：纯静态前端应用，不部署任何追踪器，不收集任何用户个人信息，不使用Cookie或本地存储进行用户行为追踪。
+                    1. <strong>前端隐私承诺</strong>：纯静态前端应用，不部署任何追踪器，不收集任何用户个人信息，不使用Cookie进行用户行为追踪。
                 </p>
                 <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
-                    2. <strong>服务器端日志</strong>：如部署于第三方平台（如GitHub Pages），可能会产生服务器访问日志，该等日志由平台方管理，本站无法获取或控制。
+                    2. <strong>登录功能说明</strong>：本站提供灵应用商店账号登录功能，登录凭据（Token）及用户基本信息仅存储于您的浏览器本地（localStorage），不会上传至本站服务器，也不会分享给任何第三方。您可以随时退出登录以清除本地存储的凭据。
+                </p>
+                <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
+                    3. <strong>第三方API请求</strong>：登录后，本站将直接向灵应用商店官方API发送请求，所有请求数据直接传输至官方服务器，本站不做任何中转或存储。请您知悉并自行承担账号安全风险。
+                </p>
+                <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
+                    4. <strong>服务器端日志</strong>：如部署于第三方平台（如GitHub Pages），可能会产生服务器访问日志，该等日志由平台方管理，本站无法获取或控制。
                 </p>
                 <p style="color:#ccc;line-height:1.8;">
-                    3. <strong>数据安全</strong>：本站采取合理的技术措施保障数据安全，但不对因不可抗力或第三方攻击导致的数据泄露承担责任。
+                    5. <strong>数据安全</strong>：本站采取合理的技术措施保障数据安全，但不对因不可抗力或第三方攻击导致的数据泄露承担责任。
                 </p>
             </div>
 
@@ -485,6 +590,42 @@
             </div>
             <div class="modal-body" id="modalBody">
                 <div class="loading">加载中...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登录弹窗 -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal login-modal">
+            <div class="modal-header">
+                <h3>登录 / 注册</h3>
+                <button class="modal-close" onclick="closeLoginModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="login-warning">
+                    ⚠️ 本站为第三方技术演示网站，账号信息直接发送至灵应用商店官方API。
+                    <br>请确保您了解并信任官方服务，账号安全由您自行负责。
+                </div>
+                
+                <div class="login-tabs">
+                    <button class="login-tab active" onclick="switchLoginTab('login')" id="tabLogin">登录</button>
+                </div>
+
+                <!-- 登录表单 -->
+                <div id="loginForm">
+                    <div class="form-group">
+                        <label class="form-label">用户名</label>
+                        <input type="text" class="form-input" id="loginUsername" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">密码</label>
+                        <input type="password" class="form-input" id="loginPassword" placeholder="请输入密码">
+                    </div>
+                    <button class="submit-btn" onclick="doLogin()" id="btnLogin">登录</button>
+                    <div class="form-tip">没有账号？点击上方"注册"创建</div>
+                    <div class="form-error" id="loginError" style="display:none;"></div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -906,8 +1047,54 @@
                     </div>
                     ` : ''}
 
+                    <!-- 版本历史（需登录） -->
+                    <div class="detail-section">
+                        <h3>版本历史</h3>
+                        <div id="versionListContainer">
+                            ${isLoggedIn() ? `
+                            <div class="loading" style="padding:20px;font-size:14px;">加载中...</div>
+                            ` : `
+                            <div class="login-required">
+                                <p>🔒 查看版本历史需要登录</p>
+                                <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+                            </div>
+                            `}
+                        </div>
+                    </div>
+
+                    <!-- 评分（需登录） -->
+                    <div class="detail-section">
+                        <h3>应用评分</h3>
+                        <div class="rating-section">
+                            <div class="rating-stars" id="ratingStars">
+                                ${[1,2,3,4,5].map(i => `<span class="rating-star" data-rating="${i}" onclick="handleRating('${app._id}', ${i})">★</span>`).join('')}
+                            </div>
+                            <div class="rating-info">
+                                ${isLoggedIn() ? '点击星星评分' : '🔒 登录后可评分'}
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="detail-section">
                         <h3>用户评论 (${comments.length})</h3>
+                        
+                        <!-- 评论输入（需登录） -->
+                        <div id="commentInputSection">
+                            ${isLoggedIn() ? `
+                            <div class="comment-input-section">
+                                <textarea class="comment-textarea" id="commentTextarea" placeholder="发表你的评论..."></textarea>
+                                <div class="comment-submit">
+                                    <button class="comment-submit-btn" onclick="handleSubmitComment('${app._id}')">发表评论</button>
+                                </div>
+                            </div>
+                            ` : `
+                            <div class="login-required" style="margin-bottom:20px;">
+                                <p>🔒 发表评论需要登录</p>
+                                <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+                            </div>
+                            `}
+                        </div>
+
                         ${comments.length === 0 ? '<p style="color:#888;">暂无评论</p>' : `
                         <div class="comment-list">
                             ${comments.map(c => `
@@ -924,12 +1111,26 @@
                         `}
                     </div>
 
-                    <button class="download-btn" disabled>
-                        🔒 下载需要登录客户端
-                    </button>
+                    <!-- 下载按钮 -->
+                    <div id="downloadSection">
+                        ${isLoggedIn() ? `
+                        <button class="submit-btn" onclick="handleDownload('${app._id}')">
+                            📥 下载应用
+                        </button>
+                        ` : `
+                        <button class="download-btn" onclick="openLoginModal()">
+                            🔒 登录后下载
+                        </button>
+                        `}
+                    </div>
                 `;
             } catch (err) {
                 body.innerHTML = '<div class="no-results">加载失败: ' + err.message + '</div>';
+            }
+
+            // 加载版本列表（如果已登录）
+            if (isLoggedIn()) {
+                setTimeout(() => loadVersionList(appId), 100);
             }
         }
 
@@ -1038,6 +1239,359 @@
             }).join('');
         }
 
+        // ==================== 登录功能 ====================
+        
+        let currentUser = null;
+        let authToken = null;
+
+        // 获取Token
+        function getToken() {
+            if (!authToken) {
+                authToken = localStorage.getItem('lingstore_token');
+            }
+            return authToken;
+        }
+
+        // 保存Token
+        function setToken(token) {
+            authToken = token;
+            localStorage.setItem('lingstore_token', token);
+        }
+
+        // 清除Token
+        function clearToken() {
+            authToken = null;
+            localStorage.removeItem('lingstore_token');
+            localStorage.removeItem('lingstore_user');
+        }
+
+        // 获取当前用户
+        function getCurrentUser() {
+            if (!currentUser) {
+                const userStr = localStorage.getItem('lingstore_user');
+                if (userStr) {
+                    try {
+                        currentUser = JSON.parse(userStr);
+                    } catch {}
+                }
+            }
+            return currentUser;
+        }
+
+        // 保存用户信息
+        function setCurrentUser(user) {
+            currentUser = user;
+            localStorage.setItem('lingstore_user', JSON.stringify(user));
+        }
+
+        // 带Token的API请求
+        async function apiFetch(path, options = {}) {
+            const headers = options.headers || {};
+            const token = getToken();
+            if (token) {
+                headers['Authorization'] = `Bearer ${token}`;
+            }
+            if (options.body && typeof options.body === 'object') {
+                headers['Content-Type'] = 'application/json';
+                options.body = JSON.stringify(options.body);
+            }
+            return fetch(`${API_BASE}${path}`, { ...options, headers });
+        }
+
+        // 检查是否已登录
+        function isLoggedIn() {
+            return !!getToken();
+        }
+
+        // 更新导航栏用户状态
+        function updateUserUI() {
+            const loginSection = document.getElementById('loginSection');
+            const userSection = document.getElementById('userSection');
+            const user = getCurrentUser();
+            
+            if (isLoggedIn() && user) {
+                loginSection.style.display = 'none';
+                userSection.style.display = 'block';
+                document.getElementById('userName').textContent = user.nickname || user.username || '用户';
+                document.getElementById('userAvatar').textContent = (user.nickname || user.username || 'U')[0].toUpperCase();
+            } else {
+                loginSection.style.display = 'block';
+                userSection.style.display = 'none';
+            }
+        }
+
+        // 打开登录弹窗
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.add('active');
+            switchLoginTab('login');
+            document.getElementById('loginError').style.display = 'none';
+            document.getElementById('registerError').style.display = 'none';
+            document.getElementById('registerSuccess').style.display = 'none';
+        }
+
+        // 关闭登录弹窗
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.remove('active');
+        }
+
+        // 切换标签（保留接口，目前只有登录）
+        function switchLoginTab(tab) {
+            // 目前只有登录标签，预留接口
+        }
+
+        // 用户下拉菜单
+        function toggleUserDropdown() {
+            document.getElementById('userDropdown').classList.toggle('active');
+        }
+
+        // 点击其他地方关闭下拉菜单
+        document.addEventListener('click', (e) => {
+            const dropdown = document.getElementById('userDropdown');
+            const userInfo = document.querySelector('.user-info');
+            if (dropdown && userInfo && !userInfo.contains(e.target) && !dropdown.contains(e.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+
+        // 登录
+        async function doLogin() {
+            const username = document.getElementById('loginUsername').value.trim();
+            const password = document.getElementById('loginPassword').value;
+            const btn = document.getElementById('btnLogin');
+            const errorEl = document.getElementById('loginError');
+
+            if (!username || !password) {
+                errorEl.textContent = '请输入用户名和密码';
+                errorEl.style.display = 'block';
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = '登录中...';
+            errorEl.style.display = 'none';
+
+            try {
+                const res = await apiFetch('/auth/login', {
+                    method: 'POST',
+                    body: { username, password }
+                });
+                const data = await res.json();
+
+                if (res.ok && data.token) {
+                    setToken(data.token);
+                    if (data.user) {
+                        setCurrentUser(data.user);
+                    } else {
+                        // 如果登录接口不返回用户信息，单独获取
+                        await fetchUserProfile();
+                    }
+                    updateUserUI();
+                    closeLoginModal();
+                } else {
+                    errorEl.textContent = data.message || data.error || '登录失败，请检查用户名和密码';
+                    errorEl.style.display = 'block';
+                }
+            } catch (err) {
+                errorEl.textContent = '网络错误，请稍后重试';
+                errorEl.style.display = 'block';
+            }
+
+            btn.disabled = false;
+            btn.textContent = '登录';
+        }
+
+        // 获取用户资料
+        async function fetchUserProfile() {
+            try {
+                const res = await apiFetch('/users/profile');
+                if (res.ok) {
+                    const user = await res.json();
+                    setCurrentUser(user);
+                    return user;
+                }
+            } catch {}
+            return null;
+        }
+
+        // 退出登录
+        function logout() {
+            clearToken();
+            currentUser = null;
+            updateUserUI();
+            document.getElementById('userDropdown').classList.remove('active');
+        }
+
+        // 点击登录弹窗遮罩关闭
+        document.getElementById('loginModal').addEventListener('click', (e) => {
+            if (e.target.id === 'loginModal') closeLoginModal();
+        });
+
+        // ==================== 应用详情登录后功能 ====================
+
+        // 获取版本列表（需登录）
+        async function fetchAppVersions(appId) {
+            try {
+                const res = await apiFetch(`/apps/${appId}/versions`);
+                if (res.ok) {
+                    const data = await res.json();
+                    return data.versions || data;
+                }
+                return null;
+            } catch {
+                return null;
+            }
+        }
+
+        // 提交评分（需登录）
+        async function submitRating(appId, rating) {
+            try {
+                const res = await apiFetch(`/apps/${appId}/rate`, {
+                    method: 'POST',
+                    body: { rating }
+                });
+                return res.ok;
+            } catch {
+                return false;
+            }
+        }
+
+        // 发表评论（需登录）
+        async function submitComment(appId, content) {
+            try {
+                const res = await apiFetch(`/apps/${appId}/comments`, {
+                    method: 'POST',
+                    body: { content }
+                });
+                return res.ok;
+            } catch {
+                return false;
+            }
+        }
+
+        // 处理评分
+        async function handleRating(appId, rating) {
+            if (!isLoggedIn()) {
+                openLoginModal();
+                return;
+            }
+
+            // 更新星星显示
+            const stars = document.querySelectorAll('#ratingStars .rating-star');
+            stars.forEach((star, i) => {
+                star.classList.toggle('active', i < rating);
+            });
+
+            const success = await submitRating(appId, rating);
+            if (success) {
+                alert('评分成功！');
+            } else {
+                alert('评分失败，请稍后重试');
+            }
+        }
+
+        // 处理提交评论
+        async function handleSubmitComment(appId) {
+            const textarea = document.getElementById('commentTextarea');
+            const content = textarea.value.trim();
+            
+            if (!content) {
+                alert('请输入评论内容');
+                return;
+            }
+
+            const btn = document.querySelector('.comment-submit-btn');
+            btn.disabled = true;
+            btn.textContent = '发送中...';
+
+            const success = await submitComment(appId, content);
+            
+            if (success) {
+                alert('评论发表成功！');
+                textarea.value = '';
+                // 重新加载详情以显示新评论
+                openAppDetail(appId);
+            } else {
+                alert('评论发表失败，请稍后重试');
+            }
+
+            btn.disabled = false;
+            btn.textContent = '发表评论';
+        }
+
+        // 处理下载
+        async function handleDownload(appId) {
+            if (!isLoggedIn()) {
+                openLoginModal();
+                return;
+            }
+            
+            // 尝试获取下载链接
+            try {
+                const res = await apiFetch(`/download/${appId}`);
+                if (res.ok) {
+                    // 如果直接返回文件，触发下载
+                    const blob = await res.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `app_${appId}.apk`;
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                } else if (res.status === 302 || res.redirected) {
+                    // 如果是重定向，直接打开
+                    window.open(res.url, '_blank');
+                } else {
+                    alert('下载失败，请稍后重试');
+                }
+            } catch {
+                alert('下载失败，请稍后重试');
+            }
+        }
+
+        // 加载版本列表
+        async function loadVersionList(appId) {
+            const container = document.getElementById('versionListContainer');
+            if (!container) return;
+
+            if (!isLoggedIn()) {
+                container.innerHTML = `
+                    <div class="login-required">
+                        <p>🔒 查看版本历史需要登录</p>
+                        <button class="login-required-btn" onclick="openLoginModal()">立即登录</button>
+                    </div>
+                `;
+                return;
+            }
+
+            const versions = await fetchAppVersions(appId);
+            
+            if (versions && versions.length > 0) {
+                container.innerHTML = `
+                    <div class="version-list">
+                        ${versions.map(v => {
+                            const sizeMB = v.size ? (v.size / 1024 / 1024).toFixed(2) + ' MB' : '';
+                            return `
+                                <div class="version-item">
+                                    <div class="version-header">
+                                        <span class="version-name">v${v.versionName || '?'} (${v.versionCode || '-'})</span>
+                                        <span class="version-size">${sizeMB}</span>
+                                    </div>
+                                    ${v.changelog ? `<div class="version-changelog">${v.changelog}</div>` : ''}
+                                    ${isLoggedIn() ? `
+                                    <div class="version-download">
+                                        <a class="version-download-btn" href="#" onclick="event.preventDefault(); handleDownload('${appId}')">下载此版本</a>
+                                    </div>
+                                    ` : ''}
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            } else {
+                container.innerHTML = '<p style="color:#888;">暂无版本历史</p>';
+            }
+        }
+
         // 搜索
         document.getElementById('searchInput').addEventListener('input', (e) => {
             currentFilter.search = e.target.value;
@@ -1059,6 +1613,7 @@
         });
 
         // 初始化
+        updateUserUI();
         loadData();
     </script>
 </body>
