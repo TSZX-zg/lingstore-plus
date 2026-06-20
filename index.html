@@ -413,10 +413,13 @@
                     2. <strong>数据脱敏与清洗策略</strong>：移除所有外部URL字段，阻断潜在的CSRF风险；对用户敏感信息进行脱敏处理。
                 </p>
                 <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
-                    3. <strong>缓存延迟与容错机制</strong>：数据通过实时API获取，理论上无延迟；但因网络波动等不可抗力因素，可能存在数据暂时不可用的情况。
+                    3. <strong>缓存机制与更新频率</strong>：本站采用GitHub Actions自动化定时任务实施数据缓存策略。应用列表数据每日更新5次（北京时间00:00、06:00、12:00、18:00、22:00），理论最大时延约6小时；应用详情数据采用90天滚动更新周期，每日分散更新部分应用详情，理论最大时延约90天。
+                </p>
+                <p style="color:#ccc;line-height:1.8;margin-bottom:15px;">
+                    4. <strong>降级容错机制</strong>：当缓存数据不可用时，前端将自动降级为实时API调用模式，确保基础功能可用。降级模式下将增加API请求次数，可能影响加载速度。
                 </p>
                 <p style="color:#ccc;line-height:1.8;">
-                    4. <strong>数据准确性豁免</strong>：本站对数据的准确性、完整性、及时性不作任何明示或暗示的担保，所有数据仅供参考，请以官方渠道为准。
+                    5. <strong>数据准确性豁免</strong>：本站对数据的准确性、完整性、及时性不作任何明示或暗示的担保，所有数据仅供参考，请以官方渠道为准。
                 </p>
             </div>
 
@@ -507,6 +510,8 @@
         let categories = [];
         let recommendedApps = [];
         let donations = [];
+        let appDetailCache = {}; // 详情缓存数据
+        let useCacheData = false; // 是否使用缓存数据
         let currentFilter = { category: 'all', search: '', zeroOnly: false, sort: 'downloads-desc' };
         let currentView = 'grid';
         let currentRanking = 'downloads';
@@ -528,6 +533,64 @@
         // 加载所有数据
         async function loadData() {
             const badge = document.getElementById('cacheBadge');
+            
+            // 优先尝试加载静态缓存数据
+            try {
+                const [appsRes, catRes, detailRes] = await Promise.allSettled([
+                    fetch('data/apps.json'),
+                    fetch('data/categories.json'),
+                    fetch('data/apps-detail.json')
+                ]);
+                
+                if (appsRes.status === 'fulfilled' && appsRes.value.ok) {
+                    allApps = await appsRes.value.json();
+                    useCacheData = true;
+                    
+                    if (catRes.status === 'fulfilled' && catRes.value.ok) {
+                        categories = await catRes.value.json();
+                    }
+                    
+                    if (detailRes.status === 'fulfilled' && detailRes.value.ok) {
+                        const detailData = await detailRes.value.json();
+                        appDetailCache = detailData.apps || {};
+                    }
+                    
+                    // 尝试获取推荐应用（从缓存数据中筛选）
+                    try {
+                        const recRes = await fetch(`${API_BASE}/apps/recommended`);
+                        const recData = await recRes.json();
+                        recommendedApps = recData.apps || [];
+                    } catch {
+                        // 如果推荐应用获取失败，用下载量前8个代替
+                        recommendedApps = [...allApps].sort((a, b) => b.downloads - a.downloads).slice(0, 8);
+                    }
+                    
+                    badge.textContent = '缓存';
+                    badge.className = 'cache-badge';
+                    
+                    updateStats();
+                    renderCategories();
+                    renderApps();
+                    renderRecommended();
+                    renderLatest();
+                    
+                    // 显示缓存更新时间
+                    try {
+                        const metaRes = await fetch('data/meta.json');
+                        if (metaRes.ok) {
+                            const meta = await metaRes.json();
+                            document.getElementById('lastUpdate').textContent = new Date(meta.updatedAt).toLocaleString('zh-CN');
+                        }
+                    } catch {}
+                    
+                    return;
+                }
+            } catch (e) {
+                // 静态数据加载失败，继续降级
+                console.log('静态数据加载失败，降级为实时API');
+            }
+            
+            // 降级：实时API获取
             try {
                 badge.textContent = 'API';
                 badge.className = 'cache-badge api';
@@ -569,8 +632,8 @@
                     document.getElementById('lastUpdate').textContent = d.toLocaleString('zh-CN');
                 }
 
-                badge.textContent = '已加载';
-                badge.className = 'cache-badge';
+                badge.textContent = 'API';
+                badge.className = 'cache-badge api';
             } catch (err) {
                 document.getElementById('appContainer').innerHTML = '<div class="no-results">加载失败: ' + err.message + '</div>';
             }
