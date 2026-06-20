@@ -272,7 +272,7 @@
         </div>
         <div class="user-section" style="position:relative;">
             <div id="loginSection">
-                <button class="login-btn" onclick="openLoginModal()">登录 / 注册</button>
+                <button class="login-btn" onclick="openLoginModal()">登录</button>
             </div>
             <div id="userSection" style="display:none;">
                 <div class="user-info" onclick="toggleUserDropdown()">
@@ -598,7 +598,7 @@
     <div class="modal-overlay" id="loginModal">
         <div class="modal login-modal">
             <div class="modal-header">
-                <h3>登录 / 注册</h3>
+                <h3>登录</h3>
                 <button class="modal-close" onclick="closeLoginModal()">×</button>
             </div>
             <div class="modal-body">
@@ -622,7 +622,7 @@
                         <input type="password" class="form-input" id="loginPassword" placeholder="请输入密码">
                     </div>
                     <button class="submit-btn" onclick="doLogin()" id="btnLogin">登录</button>
-                    <div class="form-tip">没有账号？点击上方"注册"创建</div>
+                    <div class="form-tip">请在灵应用商店官网注册账号</div>
                     <div class="form-error" id="loginError" style="display:none;"></div>
                 </div>
 
@@ -1525,11 +1525,22 @@
                 return;
             }
             
-            // 尝试获取下载链接
             try {
                 const res = await apiFetch(`/download/${appId}`);
+                const contentType = res.headers.get('content-type') || '';
+                
                 if (res.ok) {
-                    // 如果直接返回文件，触发下载
+                    // 如果返回的是JSON，可能包含下载链接
+                    if (contentType.includes('application/json')) {
+                        const data = await res.json();
+                        const downloadUrl = data.downloadUrl || data.url || data.data?.downloadUrl;
+                        if (downloadUrl) {
+                            window.open(downloadUrl, '_blank');
+                            return;
+                        }
+                    }
+                    
+                    // 否则尝试作为文件下载
                     const blob = await res.blob();
                     const url = window.URL.createObjectURL(blob);
                     const a = document.createElement('a');
@@ -1537,14 +1548,15 @@
                     a.download = `app_${appId}.apk`;
                     a.click();
                     window.URL.revokeObjectURL(url);
-                } else if (res.status === 302 || res.redirected) {
-                    // 如果是重定向，直接打开
-                    window.open(res.url, '_blank');
                 } else {
-                    alert('下载失败，请稍后重试');
+                    // 失败时直接在新窗口打开下载链接
+                    const directUrl = `${API_BASE}/download/${appId}`;
+                    window.open(directUrl, '_blank');
                 }
-            } catch {
-                alert('下载失败，请稍后重试');
+            } catch (err) {
+                // 最后兜底：直接在新窗口打开
+                const directUrl = `${API_BASE}/download/${appId}`;
+                window.open(directUrl, '_blank');
             }
         }
 
