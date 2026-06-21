@@ -1,10 +1,13 @@
 # 灵应用商店数据排行 - 第三方拓展版
 
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.19.2-orange?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
+
 > ⚠️ **非官方 · 第三方拓展版** · 数据来源：[ziling.xin](https://ziling.xin) · 仅供技术学习与交流
 
 基于 [TSZX-zg/lingstore](https://github.com/TSZX-zg/lingstore) 开源项目拓展开发的第三方灵应用商店数据排行网站。
-
-**当前版本：v19**
 
 **在线演示：** https://tszx-zg.github.io/lingstore-plus/
 
@@ -66,9 +69,7 @@
 2. 下载 Token 转换（URL 参数 → Authorization 请求头）
 3. 自动修复下载重定向地址（去掉错误的端口号）
 
-**代理地址：** https://api.tszxzy.dpdns.org
-
-> 代理服务仅做请求转发与响应透传，不修改、不存储、不记录任何用户数据。
+> 代理服务仅做请求转发与响应透传，不修改、不存储、不记录任何用户数据。需自行部署 Worker 并配置代理地址。
 
 ---
 
@@ -98,8 +99,7 @@
 4. 等待执行完成
 
 ### 5. 配置代理服务（可选）
-如果需要使用下载功能，需要部署 Cloudflare Worker 作为反向代理。
-Worker 代码请参考项目文档或联系开发者获取。
+如果需要使用下载功能，需要自行部署 Cloudflare Worker 作为反向代理。
 
 ---
 
