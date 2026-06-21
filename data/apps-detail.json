@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T19:05:07.529Z",
+  "updatedAt": "2026-06-20T13:36:47.404Z",
   "totalApps": 746,
   "detailCount": 9,
   "cycleDay": 80,
@@ -41,7 +41,7 @@
         "avatarUrl": ""
       },
       "downloads": 8,
-      "viewCount": 64,
+      "viewCount": 62,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -122,7 +122,7 @@
         "avatarUrl": ""
       },
       "downloads": 33,
-      "viewCount": 146,
+      "viewCount": 144,
       "ratingAvg": 5,
       "ratingCount": 2,
       "status": "approved",
@@ -199,8 +199,8 @@
         "nickname": "hrk",
         "avatarUrl": ""
       },
-      "downloads": 31,
-      "viewCount": 142,
+      "downloads": 30,
+      "viewCount": 138,
       "ratingAvg": 5,
       "ratingCount": 3,
       "status": "approved",
@@ -217,7 +217,7 @@
           "versionCode": 10,
           "versionName": "2.0.8",
           "uploadedAt": "2026-04-11T02:47:33.823Z",
-          "downloads": 30,
+          "downloads": 29,
           "changelog": ""
         }
       ],
@@ -234,7 +234,7 @@
           "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.github.miwu/69d9b6456f4cf61734815473-10.png",
           "size": 4511573,
           "apkSize": 4511573,
-          "downloads": 31,
+          "downloads": 30,
           "createdAt": "2026-04-11T02:47:33.822Z"
         }
       ]
@@ -279,7 +279,7 @@
         "avatarUrl": ""
       },
       "downloads": 28,
-      "viewCount": 188,
+      "viewCount": 186,
       "ratingAvg": 5,
       "ratingCount": 3,
       "status": "approved",
@@ -355,7 +355,7 @@
         "avatarUrl": ""
       },
       "downloads": 56,
-      "viewCount": 217,
+      "viewCount": 214,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -433,7 +433,7 @@
         "avatarUrl": ""
       },
       "downloads": 13,
-      "viewCount": 68,
+      "viewCount": 66,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -514,7 +514,7 @@
         "avatarUrl": ""
       },
       "downloads": 43,
-      "viewCount": 112,
+      "viewCount": 110,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -598,7 +598,7 @@
         "avatarUrl": ""
       },
       "downloads": 118,
-      "viewCount": 564,
+      "viewCount": 561,
       "ratingAvg": 0,
       "ratingCount": 0,
       "status": "approved",
@@ -677,8 +677,8 @@
         "nickname": "拾三yu",
         "avatarUrl": ""
       },
-      "downloads": 73,
-      "viewCount": 281,
+      "downloads": 71,
+      "viewCount": 277,
       "ratingAvg": 5,
       "ratingCount": 1,
       "status": "approved",
@@ -695,7 +695,7 @@
           "versionCode": 191,
           "versionName": "1.8.3",
           "uploadedAt": "2026-04-10T08:23:14.307Z",
-          "downloads": 73,
+          "downloads": 71,
           "changelog": ""
         }
       ],
@@ -712,7 +712,7 @@
           "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.deepseek.chau/b677baf8cb38a989-191.png",
           "size": 17598028,
           "apkSize": 17598028,
-          "downloads": 73,
+          "downloads": 71,
           "createdAt": "2026-04-10T08:23:14.306Z"
         },
         {
@@ -727,7 +727,7 @@
           "iconUrl": "http://market.ziling.xin:443/download/icon/apk-logos-v2/com.deepseek.chau/ee2bd813ac8671c2-191.png",
           "size": 16854486,
           "apkSize": 16854486,
-          "downloads": 152,
+          "downloads": 151,
           "createdAt": "2026-06-01T15:23:05.641Z"
         }
       ]

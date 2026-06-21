@@ -642,7 +642,7 @@
     </div>
 
     <script>
-        const API_BASE = 'https://market.ziling.xin/api/v1';
+        const API_BASE = 'https://api.tszxzy.dpdns.org/api/v1';
         
         // 修复图标URL：将HTTP+443端口转换为标准HTTPS
         function fixIconUrl(url) {
@@ -1120,9 +1120,6 @@
                         <button class="submit-btn" onclick="handleDownload('${app._id}')">
                             📥 下载应用
                         </button>
-                        <p class="download-hint">
-                            💡 如无法下载，请先在 <a href="https://open.ziling.xin/login.html" target="_blank" style="color: var(--accent-color);">灵应用开放平台</a> 登录
-                        </p>
                         ` : `
                         <button class="download-btn" onclick="openLoginModal()">
                             🔒 登录后下载
@@ -1531,11 +1528,43 @@
                 return;
             }
             
-            const downloadUrl = `https://market.ziling.xin/download/${appId}`;
+            const downloadUrl = `https://api.tszxzy.dpdns.org/download/${appId}`;
+            const token = getToken();
             
-            // 直接在新窗口打开下载链接
-            // 如果用户在灵应用开放平台登录过（有Cookie），就能直接下载
-            window.open(downloadUrl, '_blank');
+            // 创建一个带Authorization头的下载请求
+            // 使用fetch获取重定向后的真实地址，然后用a标签下载
+            fetch(downloadUrl, {
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                },
+                redirect: 'manual'
+            }).then(res => {
+                if (res.status >= 300 && res.status < 400) {
+                    const realUrl = res.headers.get('location');
+                    if (realUrl) {
+                        // 用a标签触发下载
+                        const a = document.createElement('a');
+                        a.href = realUrl;
+                        a.download = '';
+                        a.target = '_blank';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        return;
+                    }
+                }
+                // 如果不是重定向，尝试直接下载
+                return res.blob().then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `app_${appId}.apk`;
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                });
+            }).catch(err => {
+                alert('下载失败：' + err.message);
+            });
         }
 
         // 加载版本列表
