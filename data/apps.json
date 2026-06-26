@@ -1,5 +1,152 @@
 [
   {
+    "_id": "6a3eb5a814be5940afea31d5",
+    "name": "Geiniyaol Box",
+    "packageName": "com.fwork.geiniyaolbox",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fwork.geiniyaolbox/d4bb30b1c9c5a4eb-1.png",
+    "logoKey": "apk-logos-v2/com.fwork.geiniyaolbox/d4bb30b1c9c5a4eb-1.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.fwork.geiniyaolbox/d4bb30b1c9c5a4eb-1.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "手表工具箱。\n功能摘要：\n-实时监听并可实时调控系统触摸特效。\n-自定义通知。\n\n-完整的明暗模式切换\n-完整的应用内界面缩放(density)\n-Material 3\n--------------------\n此为第一个公布的release\n欢迎加入群聊348824125",
+    "developer": "fwork",
+    "source": "Release Build",
+    "supportedDevices": [
+      "phone"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "v1.0.0-Release",
+    "versionCode": 1,
+    "size": 7565031,
+    "apkSize": 7565031,
+    "downloads": 1,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69e2f967cd7e3d62df05d72c",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-06-26T17:23:52.790Z",
+    "updatedAt": "2026-06-26T17:23:52.806Z"
+  },
+  {
+    "_id": "6a3eb59f14be5940afea30be",
+    "name": "QQ Max",
+    "packageName": "com.tencent.qqlite",
+    "variantKey": "variant-1782494503104",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+    "logoKey": "apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.tencent.qqlite/b36160e2086e3627-2465.png",
+    "category": "Social",
+    "tags": [],
+    "description": "QQmax一款基于参考wearQQPro基于QQPro基于wearQQ基于QQ9.0.3的手机化/TIM化软件",
+    "developer": "AI LIFE",
+    "source": "TG群",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "M2.1",
+    "versionCode": 2465,
+    "size": 49041750,
+    "apkSize": 49041750,
+    "downloads": 2,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "69d6642425674e3066734d64",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-06-26T17:23:43.126Z",
+    "updatedAt": "2026-06-26T17:23:43.143Z"
+  },
+  {
+    "_id": "69dc55510b6582d2a49228fe",
+    "name": "Apktool M",
+    "packageName": "ru.maximoff.apktool",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.maximoff.apktool/5dfa2f60eaddf34e-2026032801.png",
+    "logoKey": "apk-logos-v2/ru.maximoff.apktool/5dfa2f60eaddf34e-2026032801.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.maximoff.apktool/5dfa2f60eaddf34e-2026032801.png",
+    "category": "Tools",
+    "tags": [],
+    "description": "一款可以对应用安装包进行拆包，实现反编译，签名等操作的应用",
+    "developer": "lenovo",
+    "source": "苏打",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.4.0-260328",
+    "versionCode": 2026032801,
+    "size": 16215309,
+    "apkSize": 16215309,
+    "downloads": 20,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3d3c4e73c5b6569cb67416",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-04-13T02:30:41.127Z",
+    "updatedAt": "2026-06-26T16:47:16.536Z"
+  },
+  {
+    "_id": "6a3eacddfbc85d288afcfd25",
+    "name": "com.kiloo.subwaysurf.full",
+    "packageName": "com.kiloo.subwaysurf.full",
+    "variantKey": "default",
+    "iconSource": "parsed",
+    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurf.full/48d67487d87a20e6-79.png",
+    "logoKey": "apk-logos-v2/com.kiloo.subwaysurf.full/48d67487d87a20e6-79.png",
+    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.kiloo.subwaysurf.full/48d67487d87a20e6-79.png",
+    "category": "Games",
+    "tags": [],
+    "description": "知道大家喜欢破解版，为此版本是破解威尼斯汉化版下载时只有30多兆使用后顶多70兆😃",
+    "developer": "Lenovo",
+    "source": "葫芦侠",
+    "supportedDevices": [
+      "phone",
+      "watch"
+    ],
+    "isWearOS": false,
+    "screenshotKeys": [],
+    "versionName": "2.34.0",
+    "versionCode": 79,
+    "size": 38628277,
+    "apkSize": 38628277,
+    "downloads": 2,
+    "rating": 0,
+    "status": "approved",
+    "uploader": {
+      "_id": "6a3d3c4e73c5b6569cb67416",
+      "username": "",
+      "nickname": null,
+      "avatar": null,
+      "avatarUrl": null
+    },
+    "createdAt": "2026-06-26T16:46:21.312Z",
+    "updatedAt": "2026-06-26T16:46:21.328Z"
+  },
+  {
     "_id": "6a3e9ce9fbc85d288af5909a",
     "name": "深蓝矿工",
     "packageName": "com.company.game",
@@ -138,7 +285,7 @@
     "versionCode": 12,
     "size": 62447,
     "apkSize": 62447,
-    "downloads": 17,
+    "downloads": 18,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -220,7 +367,7 @@
     "versionCode": 44,
     "size": 16885263,
     "apkSize": 16885263,
-    "downloads": 5,
+    "downloads": 6,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -379,7 +526,7 @@
     "versionCode": 1123,
     "size": 4665359,
     "apkSize": 4665359,
-    "downloads": 28,
+    "downloads": 29,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -452,7 +599,7 @@
     "versionCode": 9,
     "size": 6672850,
     "apkSize": 6672850,
-    "downloads": 192,
+    "downloads": 194,
     "rating": 3.1,
     "status": "approved",
     "uploader": {
@@ -488,7 +635,7 @@
     "versionCode": 422,
     "size": 2979798,
     "apkSize": 2979798,
-    "downloads": 58,
+    "downloads": 61,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -526,7 +673,7 @@
     "versionCode": 6654,
     "size": 61763769,
     "apkSize": 61763769,
-    "downloads": 4,
+    "downloads": 5,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -566,7 +713,7 @@
     "versionCode": 255,
     "size": 145339074,
     "apkSize": 145339074,
-    "downloads": 34,
+    "downloads": 35,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -643,7 +790,7 @@
     "versionCode": 20260621,
     "size": 9757196,
     "apkSize": 9757196,
-    "downloads": 471,
+    "downloads": 472,
     "rating": 4.9,
     "status": "approved",
     "uploader": {
@@ -679,7 +826,7 @@
     "versionCode": 24011893,
     "size": 26548891,
     "apkSize": 26548891,
-    "downloads": 17,
+    "downloads": 18,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -942,7 +1089,7 @@
     "versionCode": 35,
     "size": 8008449,
     "apkSize": 8008449,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -1441,7 +1588,7 @@
     "versionCode": 12716,
     "size": 38348710,
     "apkSize": 38348710,
-    "downloads": 21,
+    "downloads": 22,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -1962,7 +2109,7 @@
     "versionCode": 705,
     "size": 14164319,
     "apkSize": 14164319,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2547,7 +2694,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.UnityTechnologies.com.unity.template.urpblank/6e6fb21243b43bb9-1.png",
     "category": "Games",
     "tags": [],
-    "description": "企鹅快跑大版本更新-1.2  ！\n增加了3种难度模式，简单-正常-困难，难度越高Anon飞行器刷新概率越低，障碍物也越来越多！分数倍率也越来越高！替换了障碍物的模型或贴图！\n新增了网络分数排行榜，只显示前10名，记得改名字(别恶意改名)，我后台可以看到名字\n增加了设置固定速度(文字下方矩形会绿则视为开启)，因为有人说慢说快，也可以不开，不开就是遵循起步速度10，每跑100m加1，最高20\nAnon飞行器结束后有5秒的幽灵模式！\n如果你撞到障碍物了(踩上去也算)，就会被睦子米飞踢！\n奶龙模型:https://www.aplaybox.com/details/model/tnW6ewFW7VJU\n睦和爱音模型:@很ying的哈呵  ，追逐音乐切片:@若叶雪  \n鉴于很多人不会安卓端的解压，换成夸克可以直接下apk，文件大小在70mb左右，下载速度还是很快的，以下为夸克游戏链接:(支持安卓和win)\nhttps://pan.quark.cn/s/b3c1f7581eea",
+    "description": "企鹅快跑大版本更新-1.2  ！\n增加了3种难度模式，简单-正常-困难，难度越高Anon飞行器刷新概率越低，障碍物也越来越多！分数倍率也越来越高！替换了障碍物的模型或贴图！\n新增了网络分数排行榜，只显示前10名，记得改名字(别恶意改名)，我后台可以看到名字\n增加了设置固定速度(文字下方矩形会绿则视为开启)，因为有人说慢说快，也可以不开，不开就是遵循起步速度10，每跑100m加1，最高20\nAnon飞行器结束后有5秒的幽灵模式！\n如果你撞到障碍物了(踩上去也算)，就会被睦子米飞踢！\n奶龙模型:https://www.aplaybox.com/details/model/tnW6ewFW7VJU\n睦和爱音模型:@很ying的哈呵  ，追逐音乐切片:@若叶雪  \n鉴于很多人不��安卓端的解压，换成夸克可以直接下apk，文件大小在70mb左右，下载速度还是很快的，以下为夸克游戏链接:(支持安卓和win)\nhttps://pan.quark.cn/s/b3c1f7581eea",
     "developer": "千早九重天",
     "source": "B站",
     "supportedDevices": [
@@ -2810,7 +2957,7 @@
     "versionCode": 1244,
     "size": 19885627,
     "apkSize": 19885627,
-    "downloads": 128,
+    "downloads": 129,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -2883,7 +3030,7 @@
     "versionCode": 18,
     "size": 5658208,
     "apkSize": 5658208,
-    "downloads": 114,
+    "downloads": 115,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -2920,7 +3067,7 @@
     "versionCode": 5,
     "size": 2153143,
     "apkSize": 2153143,
-    "downloads": 24,
+    "downloads": 25,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -2992,7 +3139,7 @@
     "versionCode": 10705,
     "size": 14640226,
     "apkSize": 14640226,
-    "downloads": 45,
+    "downloads": 46,
     "rating": 2.3,
     "status": "approved",
     "uploader": {
@@ -3027,7 +3174,7 @@
     "versionCode": 6220,
     "size": 66676490,
     "apkSize": 66676490,
-    "downloads": 49,
+    "downloads": 50,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -3246,7 +3393,7 @@
     "versionCode": 83,
     "size": 12759932,
     "apkSize": 12759932,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3354,7 +3501,7 @@
     "versionCode": 1130,
     "size": 40911802,
     "apkSize": 40911802,
-    "downloads": 132,
+    "downloads": 133,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -3451,7 +3598,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.oray.sunlogin/3f74b09e405c42d7-146.png",
     "category": "Tools",
     "tags": [],
-    "description": "一个远程控��软件，性能低的手表会卡死，需改dpi",
+    "description": "一个远程控制软件，性能低的手表会卡死，需改dpi",
     "developer": "向日葵远程",
     "source": "微思",
     "supportedDevices": [
@@ -3961,7 +4108,7 @@
     "versionCode": 120,
     "size": 8362428,
     "apkSize": 8362428,
-    "downloads": 23,
+    "downloads": 24,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -4543,7 +4690,7 @@
     "versionCode": 3600,
     "size": 6959191,
     "apkSize": 6959191,
-    "downloads": 353,
+    "downloads": 356,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -4903,7 +5050,7 @@
     "versionCode": 12,
     "size": 4596087,
     "apkSize": 4596087,
-    "downloads": 216,
+    "downloads": 217,
     "rating": 4.4,
     "status": "approved",
     "uploader": {
@@ -5353,7 +5500,7 @@
     "versionCode": 98889,
     "size": 90692698,
     "apkSize": 90692698,
-    "downloads": 5,
+    "downloads": 6,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -5732,7 +5879,7 @@
     "versionCode": 101030,
     "size": 9317597,
     "apkSize": 9317597,
-    "downloads": 59,
+    "downloads": 60,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5768,7 +5915,7 @@
     "versionCode": 191,
     "size": 16854486,
     "apkSize": 16854486,
-    "downloads": 176,
+    "downloads": 177,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -5905,7 +6052,7 @@
     "versionCode": 93200,
     "size": 10799549,
     "apkSize": 10799549,
-    "downloads": 69,
+    "downloads": 70,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6146,7 +6293,7 @@
     "versionCode": 9133,
     "size": 24158684,
     "apkSize": 24158684,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6217,7 +6364,7 @@
     "versionCode": 1,
     "size": 4661495,
     "apkSize": 4661495,
-    "downloads": 204,
+    "downloads": 205,
     "rating": 2.8,
     "status": "approved",
     "uploader": {
@@ -6438,7 +6585,7 @@
     "versionCode": 63,
     "size": 28535912,
     "apkSize": 28535912,
-    "downloads": 74,
+    "downloads": 75,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -6600,7 +6747,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.Hotdogdoggames.BRRRT.cn/da8758a3dc99321c-334.png",
     "category": "Games",
     "tags": [],
-    "description": "《陆基密集阵模拟器》是一款高度拟真的现代军事防御射击手游，由Hotdog dog games开发。玩家将化身陆基防空指挥官，操控先进的C-RAM CIWS近防系统，抵御来自空中的各种威胁，体验保卫基地的使命感与紧张感。游戏以真实还原的陆基密集阵武器系统为核心，精准模拟多种型号的近防炮，射速、射程、精度等参数与现实一致，带来身临其境的操作体验。你将面对战斗机、轰炸机、无人机、巡航导弹等多种敌机，它们各有独特的飞行轨迹和攻击方式，考验你的应变能力与战术部署。动态战场环境让战斗更加真实：昼夜循环、天气变化（如暴雨、夜晚）会影响射击精度，你需要依赖雷达、红外瞄准镜等设备进行作战。3D战场沉浸感十足，敌机坠毁时会撞毁建筑、引发爆炸，甚至触发连锁反应，战场局势瞬息万变。游戏提供丰富的武器系统，从经典加特林机炮到近程防空导弹，再到未来科技感的激光防御模块、电磁加速炮，满足你对现代防空武器的所有想象。你可以自由调配资源，升级雷达探测范围、炮弹装填速度，打造专属的防空体系。操作手感流畅，优化触摸操作，射击、瞄准响应灵敏。支持夜视、距离预测、导弹发射等多项实战功能，让你体验最逼真的现代防御作战快感。《陆基密集阵模拟器》不仅是一场火力的较量，更是一次策略与操作的双重考验。立即下载，开启属于你的终极火力秀，用钢铁弹幕守护领空！",
+    "description": "《陆基密集阵模拟器》是一款高度拟真的现代军事防御射击手游，由Hotdog dog games开发。玩家将化身陆基防空指挥官，操控先进的C-RAM CIWS近防系统，抵御来自空中的各��威胁，体验保卫基地的使命感与紧张感。游戏以真实还原的陆基密集阵武器系统为核心，精准模拟多种型号的近防炮，射速、射程、精度等参数与现实一致，带来身临其境的操作体验。你将面对战斗机、轰炸机、无人机、巡航导弹等多种敌机，它们各有独特的飞行轨迹和攻击方式，考验你的应变能力与战术部署。动态战场环境让战斗更加真实：昼夜循环、天气变化（如暴雨、夜晚）会影响射击精度，你需要依赖雷达、红外瞄准镜等设备进行作战。3D战场沉浸感十足，敌机坠毁时会撞毁建筑、引发爆炸，甚至触发连锁反应，战场局势瞬息万变。游戏提供丰富的武器系统，从经典加特林机炮到近程防空导弹，再到未来科技感的激光防御模块、电磁加速炮，满足你对现代防空武器的所有想象。你可以自由调配资源，升级雷达探测范围、炮弹装填速度，打造专属的防空体系。操作手感流畅，优化触摸操作，射击、瞄准响应灵敏。支持夜视、距离预测、导弹发射等多项实战功能，让你体验最逼真的现代防御作战快感。《陆基密集阵模拟器》不仅是一场火力的较量，更是一次策略与操作的双重考验。立即下载，开启属于你的终极火力秀，用钢铁弹幕守护领空！",
     "supportedDevices": [
       "phone"
     ],
@@ -6670,7 +6817,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papasdonuteriatogo/889e4c5355f81177-88000005.png",
     "category": "Games",
     "tags": [],
-    "description": "《美妙甜甜圈》是一款由Flipline Studios精心打造的模拟经营手游，带你化身粉点小镇的甜甜圈大师，体验从面团到糖衣的完整制作乐趣！游戏以轻松治愈的画风和沉浸式玩法为核心，让你在忙碌生活中找到一份甜蜜的放松。\n在游戏中，你将经营一家专属甜甜圈店，根据顾客需求，自由选择面团、模具、油炸时间，搭配奶油、糖霜、彩色糖果等丰富配料，制作独一无二的甜甜圈。首次光顾的顾客可能只点一个基础款，但回头客会提出更复杂的订单，考验你的速度与创意！ 节日主题：全年解锁不同节日食材，制作圣诞限定、万圣节特供等主题甜甜圈，让店铺充满节日氛围。\n- 自由定制：从店铺装饰到甜甜圈外观，海量贴纸与金币奖励等你收集，打造专属甜品王国。挑战模式：限时订单、��难度配方等关卡设计，考验操作与策略，成就感爆棚。\n- 治愈体验：通过制作甜甜圈释放压力，享受慢节奏的烹饪乐趣，适合所有年龄段玩家。无论是想体验经营乐趣，还是单纯喜欢甜甜圈的可爱造型，《美妙甜甜圈》都能满足你的期待！现在就加入粉点小镇，开启你的甜蜜事业吧！",
+    "description": "《美妙甜甜圈》是一款由Flipline Studios精心打造的模拟经营手游，带你化身粉点小镇的甜甜圈大师，体验从面团到糖衣的完整制作乐趣！游戏以轻松治愈的画风和沉浸式玩法为核心，让你在忙碌生活中找到一份甜蜜的放松。\n在游戏中，你将经营一家专属甜甜圈店，根据顾客需求，自由选择面团、模具、油炸时间，搭配奶油、糖霜、彩色糖果等丰富配料，制作独一无二的甜甜圈。首次光顾的顾客可能只点一个基础款，但回头客会提出更复杂的订单，考验你的速度与创意！ 节日主题：全年解锁不同节日食材，制作圣诞限定、万圣节特供等主题甜甜圈，让店铺充满节日氛围。\n- 自由定制：从店铺装饰到甜甜圈外观，海量贴纸与金币奖励等你收集，打造专属甜品王国。挑战模式：限时订单、高难度配方等关卡设计，考验操作与策略，成就感爆棚。\n- 治愈体验：通过制作甜甜圈释放压力，享受慢节奏的烹饪乐趣，适合所有年龄段玩家。无论是想体验经营乐趣，还是单纯喜欢甜甜圈的可爱造型，《美妙甜甜圈》都能满足你的期待！现在就加入粉点小镇，开启你的甜蜜事业吧！",
     "supportedDevices": [
       "phone"
     ],
@@ -7054,7 +7201,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papascheeseriatogo/e2d7eea7a545a27b-64000005.png",
     "category": "Games",
     "tags": [],
-    "description": "《老爹奶酪店》是一款由Flipline Studios开发的模拟经营类手游，玩家将接手老爹的奶酪三明治店，从接单、制作到服务顾客，体验从新手到店主的完整经营旅程。游戏延续“老爹系列”经典玩法，以卡通画风与轻松节奏，带来治愈又上瘾的美食制作乐趣。订单制作全流程：根���顾客需求选择面包、奶酪、酱料与配料，按顺序组装三明治，再通过烤制、煎炸等步骤完成制作",
+    "description": "《老爹奶酪店》是一款由Flipline Studios开发的模拟经营类手游，玩家将接手老爹的奶酪三明治店，从接单、制作到服务顾客，体验从新手到店主的完整经营旅程。游戏延续“老爹系列”经典玩法，以卡通画风与轻松节奏，带来治愈又上瘾的美食制作乐趣。订单制作全流程：根据顾客需求选择面包、奶酪、酱料与配料，按顺序组装三明治，再通过烤制、煎炸等步骤完成制作",
     "developer": "Flipline Studios",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -7136,7 +7283,7 @@
     "versionCode": 355000,
     "size": 152126190,
     "apkSize": 152126190,
-    "downloads": 37,
+    "downloads": 38,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -7230,7 +7377,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/air.com.flipline.papaspancakeriahd/c235778ea5e7d3ff-88001003.png",
     "category": "Games",
     "tags": [],
-    "description": "《老爹煎饼店高清版》是由Flipline Studios精心打造的模拟经营手游，作为“老爹系列”的经典之作，这款游戏以高清画质和趣味玩法，带你体验从早餐摊到连锁店的创业之旅！游戏延续了系列标志性的卡通画风，食材纹理、煎饼色泽和顾客表情都更加细腻逼真，让烹饪过程充满视觉享受。在游戏中，你将扮演煎饼店老板，从点单、煎制到搭配配料，全程亲手制作美味煎饼。每位顾客都有独特口味——有人爱蓝莓果酱，有人偏爱巧克力糖浆，甚至还有“双份坚果+蜂蜜”的奇葩需求！你需要精准控制火候、快速响应订单，才能赢得高分和丰厚小费。40+独家食谱，解锁无限创意：从经典原味到节日限定，解锁草莓奶油、坚果焦糖等特色配方，满足挑剔顾客的味蕾。\n- 12个节日关卡，挑战升级：万圣节、圣诞节等主题关卡轮番登场，限时制作特殊煎饼，赢取限定装饰和奖励。\n- 店铺自由定制，打造美食帝国：用赚来的小费升级设备、购买家具，甚至雇佣员工，逐步将小店扩张为连锁品牌。\n- 轻松治愈，老少皆宜：操作简单易上手，节奏张弛有度，既能锻炼反应力，又能享受慢节奏的经营乐趣。无论是想体验烹饪乐趣，还是挑战经营策略，《老爹煎饼店高清版》都能满足你的期待！现在就加入粉点小镇，开启你的煎饼创业之路吧！",
+    "description": "《老爹煎饼店高清版》是由Flipline Studios精心打造的模拟经营手游，作为“老爹系列”的经典之作，这款游戏以高清画质和趣味玩法，带你体验从早餐摊到连锁店的创业之旅！游戏延续了系列标志性的卡通画风，食材纹理、煎饼色泽和顾客表情都更加细腻逼真，让烹饪过程充满视觉享受。在游戏中，你将扮演煎饼店老板，从点单、煎制到搭配配料，全程亲手制作美味煎饼。每位顾客都有独特口味——有人爱蓝莓果酱，有人偏爱巧克力糖浆，甚至还有“双份坚果+蜂蜜”的奇葩需求！你需要精准控制火候、快速响应订单，才能赢得高分和丰厚小费。40+独家食谱，解锁无限创意：从经典原味到节日限定，解锁草莓奶油、坚果焦糖等特色配方，满足挑剔顾客的味蕾。\n- 12个节日关卡，挑战升级：万圣节、圣诞节等主题关卡轮番登场，限时制作特殊煎饼，赢取限定装饰和奖励。\n- 店铺自由定制，打造美食帝国：用赚来的小费升级设备、购买家具，甚至雇佣员工，逐步将小店扩张为连锁品牌。\n- 轻松治愈，老少皆宜：操作简单易上手，节奏张弛有度，既能锻炼反应力，又能享受慢节奏的经营乐趣。无论是想体验烹饪乐趣，还是挑战经营策略，《老爹煎饼店高清版》都能满足你的期待！现在就加入���点小镇，开启你的煎饼创业之路吧！",
     "developer": "Flipline Studios",
     "source": "7723游戏盒",
     "supportedDevices": [
@@ -7542,7 +7689,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/mark.via/b711ec9d29b0d0d4-20260410.png",
     "category": "browser",
     "tags": [],
-    "description": "追求极简，极客之选。快速简洁可定制的浏览器，为你而来。\n\n✔安静的浏览器\n我们不会给你推送新闻、天气等，从不假装懂你。\n✔清爽的浏览器\n多种广告拦截方式，让你专注内容。\n✔轻快的浏览器\n小身形却大有可为，快速流畅，游刃有余。\n✔高度定制的浏览器\n用定制功能设计属于你自己的浏览器。\n\n我们希望你可以享受清爽流畅的浏览体验，也是我们所追求的。\nVia浏览器的一些特性：\n► 小巧轻快\n• 小于 0.5m\n• 经由优化的浏览\n► 节省流量\n• 保存网页以稍后读或离线查看\n• 智能无图\n• 强劲的广告拦截\n► 多种定制\n• 轻松构建仅属于你的主页\n• 由你喜好抉择的操作\n• 可改变的应用布局\n► 广告拦截\n• 可轻松变更的拦截规则\n• 广告标记\n• 拦截扰人的弹出窗口\n► 隐私保护\n• 无痕模式\n• 轻松的清除数据操作\n• 不跟踪\n► 书签管理\n• 云同步你的书签及设置\n• 从html文件导入书签或备份\n► 插件\n• 下载管理\n• 二维码扫描\n• 更多在线插件\n► 夜间模式\n► 电脑模式\n► 网页翻译\n► 页内查找\n► 多种搜索引擎切换\n►下载链接解析\n\nVia浏览器的理念\nVia浏览器以极客思维为主线，化繁为简。抓住核心，把复杂的过程简单化，浏览效率大大提升。\nVia浏览器注重浏览体验，干净利落，简约不简单。小体积的浏览器让每个安卓机型都可以轻松驾驭。\nVia浏览器小身形大本领，浏览器常用功能一应俱全。对于高级的需求也能满足，例如查看源码、网络日志等等\n总的来说，化繁为简，对于极简的追求，Via始终如一。\n欢迎反馈建议。满意请推荐给朋友哦～",
+    "description": "追求极简，极客之选。快速简洁可定制的浏览器，为你而来。\n\n✔安静的浏览器\n我们不会给你推送新闻、天气等，从不假装懂你。\n✔清爽的浏览器\n多种广告拦截方式，让你专注内容。\n✔轻快的浏览器\n小身形却大有可为，快速流畅，游刃有余。\n✔高度定制的浏览器\n用定制功能设计属于你自己的浏览器。\n\n我们希望你可以享受清爽流畅的浏览体验，也是我们所追求的。\nVia浏览器的一些特性：\n► 小巧轻快\n• 小于 0.5m\n• 经由优化的浏览\n► 节省流量\n• 保存网页以稍后读或离线查看\n• 智能无图\n• 强劲的广告拦截\n► 多种定制\n• 轻松构建仅属于你的主页\n• 由你喜好抉择的操作\n• 可改变的应用布局\n► 广告拦截\n• 可轻松变更的拦截规则\n• 广告标记\n• 拦截扰人的弹出窗口\n► 隐私保护\n• 无痕模式\n• 轻松的清除数据操作\n• 不跟踪\n► 书签管理\n• 云同步你的书签及设置\n• 从html文件导入书签或备份\n► 插件\n• 下载管理\n• 二维码扫描\n• 更多在线插件\n► 夜间模式\n► 电脑模式\n► 网页翻译\n► 页内查找\n► 多种搜索引擎切换\n►下载链接解析\n\nVia浏览器的理念\nVia浏览器以极客思维为主线，化繁为简。抓住核心，把复杂的过程简单化，��览效率大大提升。\nVia浏览器注重浏览体验，干净利落，简约不简单。小体积的浏览器让每个安卓机型都可以轻松驾驭。\nVia浏览器小身形大本领，浏览器常用功能一应俱全。对于高级的需求也能满足，例如查看源码、网络日志等等\n总的来说，化繁为简，对于极简的追求，Via始终如一。\n欢迎反馈建议。满意请推荐给朋友哦～",
     "developer": "知为网络科技",
     "supportedDevices": [
       "phone"
@@ -7553,7 +7700,7 @@
     "versionCode": 20260410,
     "size": 2608127,
     "apkSize": 2608127,
-    "downloads": 175,
+    "downloads": 176,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -7960,7 +8107,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/org.geogebra.android.g3d/177990873dfc1652-92530.png",
     "category": "Education",
     "tags": [],
-    "description": "geogebra3D计算器是一款可以将代数与3D几何相结合的数学应用，能帮你轻轻松松解决各种复杂的3D数学问题，能够绘制3D函数和曲面，在3D中进行尺规作图，并且你所作的图形也都可以保存和分享，同时软件中还设有增强现实工具，用户可以将所有数学对象放置在任何平面上并360°观看，视觉效果非常真实。geogebra3D计算器中还有图形计算器、3D计算器的几何应用和CAS计算器等功能，并且可以呈现代数视图、工具视图、表格视图和图形视图等用户界面且都是动态连接，因此修改其中一个视图，其它视图也会立即显示出来\n\n\n\n软件功能\n\n1、绘制 f(x,y) 函数和参数曲面\n\n2、创建立体图形、球面、平面及更多的3D对象\n\n3、获取交点和截面\n\n4、体验滑动条、点、图象和几何图形的协同交互\n\n5、直接从应用中搜索免费的学习活动\n\n6、保存并与朋友和老师们分享您的成果",
+    "description": "geogebra3D计算器是一款可以将代数与3D几何相结合的数学应用，能帮你轻轻松松解决各种复杂的3D数学问题，能够绘制3D函数和曲面，在3D中进行尺规作图，并且你所作的图形也都可以保存和分享，同时���件中还设有增强现实工具，用户可以将所有数学对象放置在任何平面上并360°观看，视觉效果非常真实。geogebra3D计算器中还有图形计算器、3D计算器的几何应用和CAS计算器等功能，并且可以呈现代数视图、工具视图、表格视图和图形视图等用户界面且都是动态连接，因此修改其中一个视图，其它视图也会立即显示出来\n\n\n\n软件功能\n\n1、绘制 f(x,y) 函数和参数曲面\n\n2、创建立体图形、球面、平面及更多的3D对象\n\n3、获取交点和截面\n\n4、体验滑动条、点、图象和几何图形的协同交互\n\n5、直接从应用中搜索免费的学习活动\n\n6、保存并与朋友和老师们分享您的成果",
     "supportedDevices": [
       "phone"
     ],
@@ -8485,7 +8632,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.chris.seasurvival/254b4027eed36344-14105.png",
     "category": "Games",
     "tags": [],
-    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，���先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器、储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健康值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
+    "description": "《大海求生》是一款沉浸式海洋漂流生存冒险手游，玩家将扮演海难幸存者，仅凭一艘小木筏和自制钩子，在无边无际的蔚蓝海域中挣扎求生。从收集漂浮物资、净化饮用水、制作工具武器，到扩建木筏、抵御鲨鱼袭击、探索神秘岛屿，每一步都关乎生死存亡。游戏以真实物理引擎与动态天气系统打造逼真海洋环境，结合自由建造与资源管理机制，让玩家在孤独与挑战中体验从一无所有到海上霸主的成长历程。 资源收集与生存管理：使用钩子打捞木板、塑料桶、木桶等漂浮物资，优先制作水杯、煮水器、炉子与鱼竿，确保饮水与食物供应；注意鲨鱼会定期啃咬木筏，需及时制作长矛防御。\n- 木筏扩建与设施建造：从4块板子的初始空间开始，逐步扩建木筏，铺设地板、建造收集网、种植蔬菜与棕榈树，打造功能齐全的海上家园；后期可解锁高级设施如净水器、储物箱等。探索与冒险：探索随机生成的岛屿，遭遇天气变化、海洋生物与未知危险；部分版本支持上岛探险，寻找沉船残骸与隐藏物资，拓展生存边界。 战斗与防御：面对鲨鱼、利维坦等海洋掠食者，需制作武器进行反击；部分模组版本加入武器挂载系统，可体验空中火力打击或水下战斗。多模式与自定义：支持单人战役、每日挑战、自由探索等多种模式；部分版本提供无限资源、作弊菜单等模组功能，满足不同玩家需求。 真实生存体验：模拟饥饿、口渴、健康值等生存要素，搭配昼夜交替与天气系统，增强代入感。\n- 高自由度建造：从简陋木筏到海上堡垒，玩家可自由规划布局，打造专属生存基地。\n- 持续更新内容：定期新增岛屿、天气、武器与装饰元素，保持游戏新鲜感。适合喜欢生存冒险、资源管理与高自由度沙盒玩法的玩家，在《大海求生》中，用智慧与勇气征服海洋，书写属于你的海上传奇！",
     "supportedDevices": [
       "phone"
     ],
@@ -9038,7 +9185,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.KhoGames.WarzoneCommander/bed600101bb7f948-72.png",
     "category": "Games",
     "tags": [],
-    "description": "《战区指挥官》是一款现代战争题材的即时战略手游，由KhoGames开发，玩家将化身前线指挥官，统筹海陆空三军力量，在动态战场中制定战术、部署部队，与全球玩家展开实时策略对抗。游戏核心玩法围绕“基地建设-兵种训练-战术部署-实时对战”展开：玩家需升级指挥中心、兵营、研究所等设施，采集石油、钢材等资源，训练步兵、坦克、战机等多样化单位；在高度拟真的全球战区地图上，灵活运用地形、天气与兵种克制关系，完成PVE战役或参与PVP实时对抗。 兵种自由组合：数十种军事单位可自由编队，打造专属战斗体系。\n- 实时策略对抗：天气、地形、昼夜交替影响战局，每场战斗都是全新博弈。\n- 离线遭遇战：内置多级AI对手，无需联网也能随时开打。\n- 联盟系统：与全球玩家结盟，共同参与大规模区域争夺战。游戏采用写实军事美术风格，装甲车辆与武器系统呈现工业级细节纹理，战损特效与战场光影增强沉浸感。操作简单直观，单指框选部队、双指缩放全局，无需键盘快捷键也能实现多线作战与精准微操。无论是策略游戏爱好者，还是军事题材粉丝，《战区指挥官》都能带来深度策略与实时对抗的双重乐趣，让你在指尖掌控全局，体验真实指挥感！分类建议\n游戏/策略塔防/战争模拟标签建议\n即时战略、军事模拟、海陆空作战、实时PVP、基地建设、兵种搭配、联盟系统、离线对战、写实风格、战术指挥",
+    "description": "《战区指挥官》是一款现代战争题材的即时战略手游，由KhoGames开发，玩家将化身前线指挥官，统筹海陆空三军力量，在动态战场中制定战术、部署部队，与全球玩家展开实时策略对抗。游戏核心玩法围绕“基地建设-兵种训练-战术部署-实时对战”展开：玩家需升级指挥中心、兵营、研究所等设施，采集石油、钢材等资源，训练步兵、坦克、战机等多样化单位；在高度拟真的全球战区地图上，灵活运用地形、天气与兵种克制关系，完成PVE战役或参与PVP实时对抗。 兵种自由组合：数十种军事单位可自由编队，打造专属战斗体系。\n- 实时策略对抗：天气、地形、昼夜交替影响战局，每场战斗都是全新博弈。\n- 离线遭遇战：内置多级AI对手，无需联网也能随时开打。\n- 联盟系统：与全球玩家结盟，共同参与大规模区域争夺战。游戏采用写实军事美术风格，装甲车辆与武器系统呈现工业级细节纹理，战损特效与战场光影增强沉浸感。操作简单直观，单指框选部队、双指缩放全局，无需键盘快捷键也能实现多线作战与精准微操。无论是策略游戏爱好者，还是军事题材粉丝，《战区指挥官》都能带来深度策略与实时对抗的双重乐趣，让你在指尖掌控全局，体验真实指挥感！分类建议\n游戏/策略塔防/战争模拟标签建议\n即时战略、军事模拟、海陆空作战、实时PVP、基地建设、兵种搭配、联盟系统、��线对战、写实风格、战术指挥",
     "supportedDevices": [
       "phone"
     ],
@@ -9223,7 +9370,7 @@
     "versionCode": 2539,
     "size": 4683774,
     "apkSize": 4683774,
-    "downloads": 11,
+    "downloads": 12,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -9848,7 +9995,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.halfbrick.fruitninjahd/8b920ca0fadbf877-1504.png",
     "category": "Games",
     "tags": [],
-    "description": "水果忍者是一款经典的休闲游戏，玩家通过滑动屏幕来切割屏幕上出现的水果，同时避免切到炸弹。游戏包含多种模式，如经典模式、禅模式和街机模式，每种模式都有不同的挑战和目标",
+    "description": "水果忍者是一款经典的休闲��戏，玩家通过滑动屏幕来切割屏幕上出现的水果，同时避免切到炸弹。游戏包含多种模式，如经典模式、禅模式和街机模式，每种模式都有不同的挑战和目标",
     "developer": "Halfbrick",
     "source": "bilibili网页链接",
     "supportedDevices": [
@@ -10525,7 +10672,7 @@
     "versionCode": 30065553,
     "size": 34490647,
     "apkSize": 34490647,
-    "downloads": 140,
+    "downloads": 141,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -10946,7 +11093,7 @@
     "versionCode": 27,
     "size": 42822243,
     "apkSize": 42822243,
-    "downloads": 299,
+    "downloads": 301,
     "rating": 4.2,
     "status": "approved",
     "uploader": {
@@ -12003,7 +12150,7 @@
     "versionCode": 65542,
     "size": 56584923,
     "apkSize": 56584923,
-    "downloads": 428,
+    "downloads": 429,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -12938,7 +13085,7 @@
     "versionCode": 9901504,
     "size": 19621521,
     "apkSize": 19621521,
-    "downloads": 637,
+    "downloads": 638,
     "rating": 4.8,
     "status": "approved",
     "uploader": {
@@ -13237,7 +13384,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.seklum.pixeldungeon2/74dabf2b99a67def-10015.png",
     "category": "Games",
     "tags": [],
-    "description": "像素地牢2是一款像素画风的开源Roguelike游戏，游戏里是无任何广告和内购项目(捐助除外)，最初的版本由watabou独立完成。在游戏中，玩家将扮演一名前往地底冒险的英雄，在地牢最深处寻找能实现一切愿望的神器尼德罗护符。在地牢里面你需要一步一步变得十分强大，也要进行战斗，每一个关卡都需要你去闯关，非常的考验玩家的操作能力，期间你要不断的去挑战各种各样的BOSS，每一个 BOSS都是有它特定的能力和机制。地牢里面有着上百种可以收集使用的道具，玩家可以将他们收集起来对付遇见的敌人，相对应的也有着几十个不同品性的敌人需要玩家去打败，只有这样才能找到出路\n\n此版本安装后显示为 重制版像素地牢，此版本为汉化版",
+    "description": "像素地牢2是一款像素画风的开源Roguelike游戏，游戏里是无任何广告和内购项目(捐助除外)，最初的版本由watabou独立完成。在游戏中，玩家将扮演一名前往地底冒险的英雄，在地牢最深处寻找能实现一切愿望的神器尼德罗护符。在地牢里面你需要一步一步变得十分强大，也要进行战斗，每一个关卡都需要你去闯关，非常的考验玩家的操作能力，期间你要不断的去挑战各种各样的BOSS，每一个 BOSS都是有它特定的能力和机制。地牢里面有着上百种可以收集使用的道具，玩家可以将他们收集起来对付遇见的敌人，相对应的也有着几十个不同品性的敌人需要玩家���打败，只有这样才能找到出路\n\n此版本安装后显示为 重制版像素地牢，此版本为汉化版",
     "developer": "watabou",
     "source": "当快",
     "supportedDevices": [
@@ -13576,41 +13723,6 @@
     },
     "createdAt": "2026-05-13T11:56:04.122Z",
     "updatedAt": "2026-05-13T11:56:04.134Z"
-  },
-  {
-    "_id": "69dc55510b6582d2a49228fe",
-    "name": "Apktool M",
-    "packageName": "ru.maximoff.apktool",
-    "variantKey": "default",
-    "iconSource": "parsed",
-    "iconUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.maximoff.apktool/a7eca657895f5526-2026031201.png",
-    "logoKey": "apk-logos-v2/ru.maximoff.apktool/a7eca657895f5526-2026031201.png",
-    "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/ru.maximoff.apktool/a7eca657895f5526-2026031201.png",
-    "category": "Tools",
-    "tags": [],
-    "description": "一款可以对应用安装包进行拆包，实现反编译，签名等操作的应用",
-    "source": "苏打",
-    "supportedDevices": [
-      "phone"
-    ],
-    "isWearOS": false,
-    "screenshotKeys": [],
-    "versionName": "2.4.0-260312",
-    "versionCode": 2026031201,
-    "size": 15849750,
-    "apkSize": 15849750,
-    "downloads": 20,
-    "rating": 0,
-    "status": "approved",
-    "uploader": {
-      "_id": "69d66cd825674e3066735666",
-      "username": "",
-      "nickname": null,
-      "avatar": null,
-      "avatarUrl": null
-    },
-    "createdAt": "2026-04-13T02:30:41.127Z",
-    "updatedAt": "2026-05-13T11:38:27.374Z"
   },
   {
     "_id": "6a0460cf44d220db9ac19fd0",
@@ -14018,7 +14130,7 @@
     "versionCode": 1,
     "size": 15205134,
     "apkSize": 15205134,
-    "downloads": 82,
+    "downloads": 83,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -15015,7 +15127,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/uk.co.beardedsoft.wobble/05f6c9aaa67b8612-144.png",
     "category": "Productivity",
     "tags": [],
-    "description": "Splash是一款极具趣味的手机壁纸美化软件。它为用户打造了逼真的液体流动效果，当用户完成设置后���翻转手机便能触发液体飞溅的动效，滑动屏幕则会产生波纹扩散，带来沉浸式的视觉享受。这款软件操作简便，用户不仅能够对壁纸的动态效果进行设置，还能调整液体颜色，让用户获得逼真的液体感受与高还原度，使手机桌面变得更加丰富多彩、趣味十足。",
+    "description": "Splash是一款极具趣味的手机壁纸美化软件。它为用户打造了逼真的液体流动效果，当用户完成设置后，翻转手机便能触发液体飞溅的动效，滑动屏幕则会产生波纹扩散，带来沉浸式的视觉享受。这款软件操作简便，用户不仅能够对壁纸的动态效果进行设置，还能调整液体颜色，让用户获得逼真的液体感受与高还原度，使手机桌面变得更加丰富多彩、趣味十足。",
     "developer": "Jozsef Barat",
     "supportedDevices": [
       "phone"
@@ -15342,7 +15454,7 @@
     "versionCode": 369,
     "size": 69636695,
     "apkSize": 69636695,
-    "downloads": 66,
+    "downloads": 67,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -16534,7 +16646,7 @@
     "versionCode": 208,
     "size": 4237410,
     "apkSize": 4237410,
-    "downloads": 54,
+    "downloads": 55,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -17273,7 +17385,7 @@
     "versionCode": 4000,
     "size": 3577222,
     "apkSize": 3577222,
-    "downloads": 243,
+    "downloads": 245,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -18023,7 +18135,7 @@
     "versionCode": 34,
     "size": 19054431,
     "apkSize": 19054431,
-    "downloads": 75,
+    "downloads": 76,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -18128,7 +18240,7 @@
     "versionCode": 10,
     "size": 3102518,
     "apkSize": 3102518,
-    "downloads": 99,
+    "downloads": 100,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -18524,7 +18636,7 @@
     "versionCode": 2070018,
     "size": 25116660,
     "apkSize": 25116660,
-    "downloads": 322,
+    "downloads": 323,
     "rating": 3.3,
     "status": "approved",
     "uploader": {
@@ -19799,7 +19911,7 @@
     "versionCode": 2,
     "size": 4947297,
     "apkSize": 4947297,
-    "downloads": 21,
+    "downloads": 22,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -19942,7 +20054,7 @@
     "versionCode": 17,
     "size": 85728,
     "apkSize": 85728,
-    "downloads": 44,
+    "downloads": 45,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -20015,7 +20127,7 @@
     "versionCode": 52,
     "size": 32413550,
     "apkSize": 32413550,
-    "downloads": 148,
+    "downloads": 151,
     "rating": 4,
     "status": "approved",
     "uploader": {
@@ -20112,7 +20224,7 @@
     "category": "Tools",
     "tags": [],
     "description": "一款让手表震动的工具\n\n\n不要用手表放进某个部位里O.o",
-    "developer": "早茶光",
+    "developer": "早茶���",
     "source": "小桃应用商店",
     "supportedDevices": [
       "phone"
@@ -22061,7 +22173,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/cn.xuexi.android/3ee5e5ed0d89d93c-27004.png",
     "category": "Education",
     "tags": [],
-    "description": "学习强国APP是“学习强国”学习平台精心打造的手机客户端，该软件内为用户提供了海量、免费的图文和音视频学习资源，从内容上看，软件由“学习”“视频学习”两大板块38个频道构成。其中“学习”板块包括推荐、要闻、新思想、时政综合、发布、实践、订阅、经济、人物、科技、文化、图片、党史、人事、法纪、国际、纪实、用典、时评、思考、军事等频道。而“视频学习”板块，则有第一视频、短视频、联播频道、理论、党史、慕课、人物、文化、文艺、科学、自然、电视剧、电影、法治、军事等频道。其旨在探索“有组织、有管理、有指导、有服务”学习，让学习更多样、更个性、更智能、更便捷。",
+    "description": "学习强国APP是“学习强国”学习平台精心打造的手机客户端，该软件内为用户提供了海量、免费的图文和音视频学习资源，从内容上看，软件由“学习”“视频学习”两大板块38个频道构成。其中“学习”板块包括推荐、要闻、新思想、时政综合、发布、实践、订阅、经济、人物、���技、文化、图片、党史、人事、法纪、国际、纪实、用典、时评、思考、军事等频道。而“视频学习”板块，则有第一视频、短视频、联播频道、理论、党史、慕课、人物、文化、文艺、科学、自然、电视剧、电影、法治、军事等频道。其旨在探索“有组织、有管理、有指导、有服务”学习，让学习更多样、更个性、更智能、更便捷。",
     "developer": "中央宣传部宣传舆情研究中心",
     "supportedDevices": [
       "phone"
@@ -22156,7 +22268,7 @@
   },
   {
     "_id": "69de23b4323db2fd87c3ba85",
-    "name": "元��骑士",
+    "name": "元气骑士",
     "packageName": "com.ChillyRoom.DungeonShooter",
     "variantKey": "default",
     "iconSource": "parsed",
@@ -22922,7 +23034,7 @@
     "versionCode": 8448,
     "size": 22621597,
     "apkSize": 22621597,
-    "downloads": 95,
+    "downloads": 96,
     "rating": 4.3,
     "status": "approved",
     "uploader": {
@@ -22958,7 +23070,7 @@
     "versionCode": 6272,
     "size": 37688723,
     "apkSize": 37688723,
-    "downloads": 39,
+    "downloads": 40,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23066,7 +23178,7 @@
     "versionCode": 220603021,
     "size": 4393950,
     "apkSize": 4393950,
-    "downloads": 101,
+    "downloads": 102,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -23212,7 +23324,7 @@
     "versionCode": 11,
     "size": 10889390,
     "apkSize": 10889390,
-    "downloads": 100,
+    "downloads": 101,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -23250,7 +23362,7 @@
     "versionCode": 31,
     "size": 12400412,
     "apkSize": 12400412,
-    "downloads": 143,
+    "downloads": 144,
     "rating": 2,
     "status": "approved",
     "uploader": {
@@ -23501,7 +23613,7 @@
     "versionCode": 70040050,
     "size": 81042843,
     "apkSize": 81042843,
-    "downloads": 215,
+    "downloads": 216,
     "rating": 1,
     "status": "approved",
     "uploader": {
@@ -23921,7 +24033,7 @@
     "versionCode": 1352,
     "size": 61883803,
     "apkSize": 61883803,
-    "downloads": 48,
+    "downloads": 49,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -23957,7 +24069,7 @@
     "versionCode": 888,
     "size": 19608172,
     "apkSize": 19608172,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 3,
     "status": "approved",
     "uploader": {
@@ -24049,7 +24161,7 @@
     "logoUrl": "https://market.ziling.xin/download/icon/apk-logos-v2/com.jx.market.adult/5e257794a1597151-136.png",
     "category": "Apps",
     "tags": [],
-    "description": "子腾的垃圾应用商店软件数量不如第三方应用商店，质量也不如第三方应用商店，甚至软件还要付费，而且付费的软件都是那种ai做的垃圾出来给大家看个乐",
+    "description": "子腾的垃圾应用商店软件数量不如第三方应用商店，质量也不如第三方应用商店，甚至软件还要付费，而且付费的软件都是��种ai做的垃圾出来给大家看个乐",
     "developer": "",
     "source": "",
     "supportedDevices": [
@@ -24281,7 +24393,7 @@
     "versionCode": 60132,
     "size": 59872000,
     "apkSize": 59872000,
-    "downloads": 702,
+    "downloads": 703,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
@@ -25390,7 +25502,7 @@
     "versionCode": 10,
     "size": 545148,
     "apkSize": 545148,
-    "downloads": 72,
+    "downloads": 73,
     "rating": 0,
     "status": "approved",
     "uploader": {
@@ -25570,7 +25682,7 @@
     "versionCode": 232,
     "size": 9416319,
     "apkSize": 9416319,
-    "downloads": 47,
+    "downloads": 48,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26227,7 +26339,7 @@
     "versionCode": 191,
     "size": 17598028,
     "apkSize": 17598028,
-    "downloads": 78,
+    "downloads": 79,
     "rating": 5,
     "status": "approved",
     "uploader": {
@@ -26812,7 +26924,7 @@
     "versionCode": 52000,
     "size": 33460677,
     "apkSize": 33460677,
-    "downloads": 837,
+    "downloads": 838,
     "rating": 4.6,
     "status": "approved",
     "uploader": {
@@ -26848,7 +26960,7 @@
     "versionCode": 2465,
     "size": 39964748,
     "apkSize": 39964748,
-    "downloads": 785,
+    "downloads": 786,
     "rating": 3.6,
     "status": "approved",
     "uploader": {
